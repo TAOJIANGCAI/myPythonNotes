@@ -565,7 +565,3 @@ temp = ""
 for i in bin(int(s[1], 16))[2:]:
     pass
 
-li.append(str(int(s[2], 16)))
-li.append(s[3])
-li.append(".".join([str(int(i, 16)) for i in s[4:]]))
-print(li)
